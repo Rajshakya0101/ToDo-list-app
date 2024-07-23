@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <nav>
+        <p>Small steps each day lead to big achievements. Keep pushing forward!</p>
+    </nav>
+
+    <div class="container">
+
+        <div class="stats-container">
+            <div class="details">
+                <h1>To Do App</h1>
+                <p>Keep it Up!</p>
+                <div id="progress-bar">
+                    <div id="progress"></div>
+                </div>
+            </div>
+            <div class="stats-number">
+                <p id="number">0 / 0</p>
+            </div>
+        </div>
+
+        <form autocomplete="off">
+            <input id="taskInput" type="text" placeholder="Add Your Task">
+            <button id="addTask-btn" type="submit">+</button>
+        </form>
+
+        <ul id="task-list"></ul>
+        <button class="dlt-all-tasks-btn" id="dlt-all-tasks">Delete All Tasks</button>
+
+    </div>
+
+    <footer>
+            <p class="footer-txt">Developed with ❤️ By Developer Raj</p><br/>
+            <div class="links-container">
+                <a href="https://www.github.com/rajshakya0101" target="_blank"><img src="/media/github.png" alt="github"></a>
+                <a href="https://www.linkedin.com/in/raj-shakya-8b205225b" target="_blank"><img src="/media//linkedin.png" alt="linkedin"></a>
+                <a href="https://www.instagram.com/dashing_raj__143" target="_blank"><img src="/media/insta.png" alt="Instagram"></a>
+            </div>
+    </footer>
+
+</body>
+<script src="app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</html>
